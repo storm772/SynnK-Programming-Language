@@ -1,0 +1,15 @@
+// This is a simple note (have ;ENV DEBUG)
+;ENV
+
+// Those SET functions will work
+SET C 2
+SET message "HELLO"
+SET msg2 "YOO BRO"
+SET FIVE "5"
+SET D 3
+
+// Those SET functions wont work
+// SET 2msg "HI"
+// SET 3 1B"C"
+
+LOG D + C, msg2
