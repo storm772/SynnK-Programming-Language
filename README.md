@@ -5,6 +5,7 @@
 #### Reads all the script.sk and interprets it, each keyword will have its functionality
 
 ### Available Functions
+- [X] Env modes
 - [X] Create variables
 - [X] Log messages and variables
 - [ ] Create functions
@@ -18,3 +19,5 @@
 - SET
   - [X] Can interact with already created variables
   - [X] Accepts int
+- ;ENV
+  - [X] Only has ;ENV DEBUG to debug.
